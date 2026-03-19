@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.14.3 on darwin)" generated="2026-03-18T16:21:15.420885" rpa="false" schemaversion="5">
-<suite id="s1" name="Tests" source="/Users/pantitas/Documents/QA Automation/CICD_Mar2026/kt_cicd/tests">
-<suite id="s1-s1" name="Example" source="/Users/pantitas/Documents/QA Automation/CICD_Mar2026/kt_cicd/tests/example.robot">
-<test id="s1-s1-t1" name="Log Hello World" line="5">
+<robot generator="Robot 7.4.2 (Python 3.14.3 on darwin)" generated="2026-03-19T17:36:01.988049" rpa="false" schemaversion="5">
+<suite id="s1" name="Example" source="/Users/pantitas/Documents/QA Automation/CICD_Mar2026/kt_cicd/tests/example.robot">
+<test id="s1-t1" name="Log Hello World" line="5">
 <kw name="Log" owner="BuiltIn">
-<msg time="2026-03-18T16:21:15.437132" level="INFO">Hello World</msg>
+<msg time="2026-03-19T17:36:02.003796" level="INFO">Hello World</msg>
 <arg>Hello World</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2026-03-18T16:21:15.436984" elapsed="0.000183"/>
+<status status="PASS" start="2026-03-19T17:36:02.003661" elapsed="0.000165"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Hello World</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-18T16:21:15.437246" elapsed="0.000100"/>
+<status status="PASS" start="2026-03-19T17:36:02.003902" elapsed="0.000100"/>
 </kw>
-<status status="PASS" start="2026-03-18T16:21:15.436664" elapsed="0.000740"/>
+<status status="PASS" start="2026-03-19T17:36:02.003365" elapsed="0.000693"/>
 </test>
-<status status="PASS" start="2026-03-18T16:21:15.436173" elapsed="0.001385"/>
-</suite>
-<status status="PASS" start="2026-03-18T16:21:15.421540" elapsed="0.016181"/>
+<status status="PASS" start="2026-03-19T17:36:01.988546" elapsed="0.015654"/>
 </suite>
 <statistics>
 <total>
@@ -27,8 +24,7 @@
 <tag>
 </tag>
 <suite>
-<stat name="Tests" id="s1" pass="1" fail="0" skip="0">Tests</stat>
-<stat name="Example" id="s1-s1" pass="1" fail="0" skip="0">Tests.Example</stat>
+<stat name="Example" id="s1" pass="1" fail="0" skip="0">Example</stat>
 </suite>
 </statistics>
 <errors>
